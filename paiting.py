@@ -3,8 +3,8 @@ import pymunk
 import cv2
 import numpy as np
 import mediapipe as mp
-from utils.cv_utils import rescale_frame, get_emojis, overlay
-from utils.physics_utils import add_emojis_to_space, add_fingers_to_space, create_static_line
+from cv_utils import rescale_frame, get_emojis, overlay
+from physics_utils import add_emojis_to_space, add_fingers_to_space, create_static_line
 
 
 mp_hands = mp.solutions.hands
